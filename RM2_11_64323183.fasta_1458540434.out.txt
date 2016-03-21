@@ -1,0 +1,21 @@
+RepeatMasker version open-4.0.5
+Search Engine: Crossmatch [ 1.080812 ]
+Master RepeatMasker Database: /u1/local/rmserver/share/Libraries/RepeatMaskerLib.embl ( Complete Database: 20140131 )
+
+
+
+analyzing file /usr/local/rmserver/tmp/RM2_11_64323183.fasta_1458540434
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 1 of 1
+identifying full-length ALUs in batch 1 of 1
+identifying full-length interspersed repeats in batch 1 of 1
+identifying remaining ALUs in batch 1 of 1
+identifying most interspersed repeats in batch 1 of 1
+identifying long interspersed repeats in batch 1 of 1
+identifying ancient repeats in batch 1 of 1
+identifying retrovirus-like sequences in batch 1 of 1
+identifying Simple Repeats in batch 1 of 1
+
+
+There were no repetitive sequences detected in /usr/local/rmserver/tmp/RM2_11_64323183.fasta_1458540434

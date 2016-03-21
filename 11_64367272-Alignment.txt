@@ -1,0 +1,70 @@
+BLASTN 2.3.1+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+RID: EZ43JHZ3114
+
+
+Query= chr11_64367272
+
+Length=602
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+Query_96591  11_64367272_All_1000Genomes                           1005    0.0  
+Query_96590  chr11_64367272_Polynesian                             780     0.0  
+
+ALIGNMENTS
+
+Query        1    ATAAACATAGTCTAGAGACTGGCCCCGCCCCACAGAGCTGGCAGCTGAAGGGCCAGAACA  60
+Query_96591  1    ............................................................  60
+Query_96590  1    ............................................................  60
+
+Query        61   CTGAGCTAAGAGCAGcacacccccaccctgagcccccaccgcccattgttcccaccctgc  120
+Query_96591  61   ...........S..K..YR.........................................  120
+Query_96590  61   ..................................................            110
+
+Query        121  ccaccacccccccccaccccccacccccaccctgacttccctgacccctgccccaGGTTC  180
+Query_96591  121  .....................S.Y...............................R....  180
+Query_96590  175                                                        ......  180
+
+Query        181  GCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCAACATC  240
+Query_96591  181  ............................................................  240
+Query_96590  181  ............................................................  240
+
+Query        241  TTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCCTGCTG  300
+Query_96591  241  ..................................................Y.........  300
+Query_96590  241  ............................................................  300
+
+Query        301  CTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCAGGGCT  360
+Query_96591  301  Y-.................Y...R.....YRY......................R.....  359
+Query_96590  301  -Y..........................................................  359
+
+Query        361  CTGCATTCTGGCCAACACGCTGGTGCCCCACGGTGAGGGGGCAAAGCTGTACACCAGAGA  420
+Query_96591  360  .................YR..................S......................  419
+Query_96590  360  ............................................................  419
+
+Query        421  CTTCCCTACCTTgggggggTCTCGGGCTGGGAACAGCACCCCTCCTTGGAGGTGCTGGAC  480
+Query_96591  420  .....Y.......S.........R............S.......................  479
+Query_96590  420  ............................................................  479
+
+Query        481  TAGAGCAGGTACCCTGGTAGGAAGGAGGCTGCCGGAGCCGTCTAGGGACAGACGGCAGTG  540
+Query_96591  480  .......R..............................YR............Y.K.....  539
+Query_96590  480  ............................................................  539
+
+Query        541  TCTGCACTGAGCCAGCAAGAGCGGTGAAGGAGTGGCATGGGTGGCACCAGGGAAAAGTGT  600
+Query_96591  540  ............................................................  599
+Query_96590  540  ............................................................  599
+
+Query        601  GG  602
+Query_96591  600  ..  601
+Query_96590  600  ..  601
+
+
+
+
+

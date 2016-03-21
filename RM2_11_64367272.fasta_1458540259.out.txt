@@ -1,0 +1,91 @@
+RepeatMasker version open-4.0.5
+Search Engine: Crossmatch [ 1.080812 ]
+Master RepeatMasker Database: /u1/local/rmserver/share/Libraries/RepeatMaskerLib.embl ( Complete Database: 20140131 )
+
+
+
+analyzing file /usr/local/rmserver/tmp/RM2_11_64367272.fasta_1458540259
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 1 of 1
+identifying full-length ALUs in batch 1 of 1
+identifying full-length interspersed repeats in batch 1 of 1
+identifying remaining ALUs in batch 1 of 1
+identifying most interspersed repeats in batch 1 of 1
+identifying long interspersed repeats in batch 1 of 1
+identifying ancient repeats in batch 1 of 1
+identifying retrovirus-like sequences in batch 1 of 1
+identifying Simple Repeats in batch 1 of 1
+processing output: 
+cycle 1 
+cycle 2 
+cycle 3 
+cycle 4 
+cycle 5 
+cycle 6 
+cycle 7 
+cycle 8 
+cycle 9 
+cycle 10 
+Generating output... 
+masking
+done
+4.20user 0.68system 0:05.20elapsed 93%CPU (0avgtext+0avgdata 1762704maxresident)k
+0inputs+464outputs (0major+446890minor)pagefaults 0swaps
+Summary:
+
+==================================================
+file name: RM2_11_64367272.fasta_1458540259
+sequences:             2
+total length:       1202 bp  (1202 bp excl N/X-runs)  
+GC level:         63.61 %
+bases masked:         64 bp ( 5.32 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:                0            0 bp    0.00 %
+      ALUs            0            0 bp    0.00 %
+      MIRs            0            0 bp    0.00 %
+
+LINEs:                0            0 bp    0.00 %
+      LINE1           0            0 bp    0.00 %
+      LINE2           0            0 bp    0.00 %
+      L3/CR1          0            0 bp    0.00 %
+
+LTR elements:         0            0 bp    0.00 %
+      ERVL            0            0 bp    0.00 %
+      ERVL-MaLRs      0            0 bp    0.00 %
+      ERV_classI      0            0 bp    0.00 %
+      ERV_classII     0            0 bp    0.00 %
+
+DNA elements:         0            0 bp    0.00 %
+     hAT-Charlie      0            0 bp    0.00 %
+     TcMar-Tigger     0            0 bp    0.00 %
+
+Unclassified:         0            0 bp    0.00 %
+
+Total interspersed repeats:        0 bp    0.00 %
+
+
+Small RNA:            0            0 bp    0.00 %
+
+Satellites:           0            0 bp    0.00 %
+Simple repeats:       1           64 bp    5.32 %
+Low complexity:       0            0 bp    0.00 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be homo sapiens  
+RepeatMasker version open-4.0.5 , default mode
+                                   
+run with cross_match version 1.080812
+RepBase Update 20140131, RM database version 20140131
+
+   SW   perc perc perc  query                      position in query    matching repeat          position in repeat
+score   div. del. ins.  sequence                   begin end   (left)   repeat   class/family  begin  end    (left)  ID
+
+   20   22.2  0.0  0.0  chr11_64367272_Polynesian    111   174  (427) + (C)n     Simple_repeat      1     64    (0)   1  

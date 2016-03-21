@@ -1,0 +1,25 @@
+20 22.19 0.00 0.00 chr11_64367272_Polynesian 111 152 (449) (C)n#Simple_repeat 1 42 (0) m_b1s252i0 1
+
+  chr11_6436727        111 CCCACCCTGCCCACCACCCCCCCCCACCCCCCACCCCCACCC 152
+                              v   iv   v  v         v      v     v   
+  (C)n#Simple_r          1 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC 42
+
+Matrix = Unknown
+Transitions / transversions = 0.14 (1/7)
+Gap_init rate = 0.00 (0 / 41), avg. gap size = 0.0 (0 / 0)
+
+13 30.25 0.00 3.45 chr11_64367272_Polynesian 115 174 (427) (CCCCGCC)n#Simple_repeat 1 58 (0) m_b1s252i1 1
+
+  chr11_6436727        115 CCCTGCCCACCACCCCCCCCCACCCCCCACCCCCACCCTGACTTCCCTGA 164
+                              i    v  i      v  v   v  v   v v   i - -i   i v
+  (CCCCGCC)n#Si          1 CCCCGCCCCCCGCCCCCCGCCCCCCGCCCCCCGCCCCCCG-C-CCCCCGC 48
+
+  chr11_6436727        165 CCCCTGCCCC 174
+                               i     
+  (CCCCGCC)n#Si         49 CCCCCGCCCC 58
+
+Matrix = Unknown
+Transitions / transversions = 0.75 (6/8)
+Gap_init rate = 0.03 (2 / 59), avg. gap size = 1.00 (2 / 2)
+
+

@@ -1,0 +1,58 @@
+BLASTN 2.3.1+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+RID: EZ48N6VV114
+
+
+Query= chr11_64323183
+
+Length=602
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+Query_194721  11_64323183                                          1068    0.0  
+
+ALIGNMENTS
+
+Query         1    GGCCTCGCSTAGAAGGTTCTAAAGATTTAAGAATGAGATCAGCTGGCCAGCAGGGAGTGG  60
+Query_194721  1    ........G...................................................  60
+
+Query         61   CTGAGGCCTCAGGTCCTGAGACATGAACTGCCTTCCTCACTCAGAAGCCCACGCTGAGAT  120
+Query_194721  61   ............................................................  120
+
+Query         121  TAAACTTTAACCAACTCAGTGAGGCAACAGCCCAGTTGATATTTCTTCCAAACTGTAATT  180
+Query_194721  121  ..R.........................................................  180
+
+Query         181  CAGTAACATCAAAGCACYCTGTCTTTTTAAATAGAATCTGCCTGACTTTCACTTTTGGTG  240
+Query_194721  181  ............................................................  240
+
+Query         241  CTGGAGAACTCAGAAGGTGGCTCAGCCCTCTGGTCCACACTTGGTGGGCAGCTCGGATGC  300
+Query_194721  241  ............................................................  300
+
+Query         301  CTCCAGGCAGCCCGGGCACAGTGAGCTTAGTCCCCTTCACCCCCTCCGCAGAGCTCTGGG  360
+Query_194721  301  ........................R..............N......Y.............  360
+
+Query         361  GCATCCGCACAGTCACTCCTGGACACAAGATAAGGAGGAGTTTCCCCGAGGCATCACAGG  420
+Query_194721  361  ............................................................  420
+
+Query         421  GCTTCCCGGGMCTGAGGGACTGACTCAACTGGTTATTGGACAGTGCCCCACCCCCAATCC  480
+Query_194721  421  ..........A........................YY......................Y  480
+
+Query         481  GGCTGAGGGGCAGGAAGGCAGAAGGTCTTGGTGGCCCTGGATCTTGTGGCTGCAATCGGT  540
+Query_194721  481  ............................................................  540
+
+Query         541  TCCAAACAGCAGTTAGGTCAGCAGTCCGCTCAGCCGAGGCAGCTCTGTTCATGGCGTTCT  600
+Query_194721  541  ...........R..........................................Y.....  600
+
+Query         601  CG  602
+Query_194721  601  ..  602
+
+
+
+
+

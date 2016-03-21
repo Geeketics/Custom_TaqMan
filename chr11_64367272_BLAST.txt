@@ -1,0 +1,340 @@
+BLASTN 2.3.1+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: EZ255KG5014
+
+
+Database: Homo sapiens all assemblies [GCF_000001405.28
+GCF_000306695.2] chromosomes plus unplaced and unlocalized scaffolds
+in Annotation Release 107; Homo sapiens Annotation Release 107 RNAs
+           163,425 sequences; 6,727,747,572 total letters
+Query= chr11_64367272
+
+Length=602
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|NC_000011.10|  Homo sapiens chromosome 11, GRCh38.p2 Prima...  1105    0.0   
+ref|NC_018922.2|  Homo sapiens chromosome 11, alternate assemb...  1031    0.0   
+ref|XM_006718431.2|  PREDICTED: Homo sapiens solute carrier fa...  394     7e-107
+ref|XM_006718430.2|  PREDICTED: Homo sapiens solute carrier fa...  394     7e-107
+ref|NM_001276327.1|  Homo sapiens solute carrier family 22 (or...  394     7e-107
+ref|NM_001276326.1|  Homo sapiens solute carrier family 22 (or...  394     7e-107
+ref|NM_153378.2|  Homo sapiens solute carrier family 22 (organ...  394     7e-107
+ref|NM_144585.3|  Homo sapiens solute carrier family 22 (organ...  394     7e-107
+
+ALIGNMENTS
+>ref|NC_000011.10| Homo sapiens chromosome 11, GRCh38.p2 Primary Assembly
+Length=135086622
+
+ Features in this part of subject sequence:
+   solute carrier family 22 member 12 isoform d
+   solute carrier family 22 member 12 isoform X1
+
+ Score = 1105 bits (598),  Expect = 0.0
+ Identities = 601/602 (99%), Gaps = 1/602 (0%)
+ Strand=Plus/Plus
+
+Query  1         ATAAACATAGTCTAGAGACTGGCCCCGCCCCACAGAGCTGGCAGCTGAAGGGCCAGAACA  60
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599500  ATAAACATAGTCTAGAGACTGGCCCCGCCCCACAGAGCTGGCAGCTGAAGGGCCAGAACA  64599559
+
+Query  61        CTGAGCTAAGAGCAGcacacccccaccctgagcccccaccgcccattgttcccaccctgc  120
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599560  CTGAGCTAAGAGCAGCACACCCCCACCCTGAGCCCCCACCGCCCATTGTTCCCACCCTGC  64599619
+
+Query  121       ccaccacccccccccaccccccacccccaccctgacttccctgacccctgccccaGGTTC  180
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599620  CCACCACCCCCCCCCACCCCCCACCCCCACCCTGACTTCCCTGACCCCTGCCCCAGGTTC  64599679
+
+Query  181       GCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCAACATC  240
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599680  GCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCAACATC  64599739
+
+Query  241       TTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCCTGCTG  300
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599740  TTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCCTGCTG  64599799
+
+Query  301       CTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCAGGGCT  360
+                 | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599800  C-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCAGGGCT  64599858
+
+Query  361       CTGCATTCTGGCCAACACGCTGGTGCCCCACGGTGAGGGGGCAAAGCTGTACACCAGAGA  420
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599859  CTGCATTCTGGCCAACACGCTGGTGCCCCACGGTGAGGGGGCAAAGCTGTACACCAGAGA  64599918
+
+Query  421       CTTCCCTACCTTgggggggTCTCGGGCTGGGAACAGCACCCCTCCTTGGAGGTGCTGGAC  480
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599919  CTTCCCTACCTTGGGGGGGTCTCGGGCTGGGAACAGCACCCCTCCTTGGAGGTGCTGGAC  64599978
+
+Query  481       TAGAGCAGGTACCCTGGTAGGAAGGAGGCTGCCGGAGCCGTCTAGGGACAGACGGCAGTG  540
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64599979  TAGAGCAGGTACCCTGGTAGGAAGGAGGCTGCCGGAGCCGTCTAGGGACAGACGGCAGTG  64600038
+
+Query  541       TCTGCACTGAGCCAGCAAGAGCGGTGAAGGAGTGGCATGGGTGGCACCAGGGAAAAGTGT  600
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64600039  TCTGCACTGAGCCAGCAAGAGCGGTGAAGGAGTGGCATGGGTGGCACCAGGGAAAAGTGT  64600098
+
+Query  601       GG  602
+                 ||
+Sbjct  64600099  GG  64600100
+
+
+>ref|NC_018922.2| Homo sapiens chromosome 11, alternate assembly CHM1_1.1
+Length=134889443
+
+ Features in this part of subject sequence:
+   solute carrier family 22 member 12 isoform a
+   solute carrier family 22 member 12 isoform c
+
+ Score = 1031 bits (558),  Expect = 0.0
+ Identities = 585/602 (97%), Gaps = 5/602 (1%)
+ Strand=Plus/Plus
+
+Query  1         ATAAACATAGTCTAGAGACTGGCCCCGCCCCACAGAGCTGGCAGCTGAAGGGCCAGAACA  60
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250184  ATAAACATAGTCTAGAGACTGGCCCCGCCCCACAGAGCTGGCAGCTGAAGGGCCAGAACA  64250243
+
+Query  61        CTGAGCTAAGAGCAGcacacccccaccctgagcccccaccgcccattgttcccaccctgc  120
+                 |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250244  CTGAGCTAAGAGCAGCACGCCCCCACCCTGAGCCCCCACCGCCCATTGTTCCCACCCTGC  64250303
+
+Query  121       ccaccacccccccccaccccccacccccaccctgacttccctgacccctgccccaGGTTC  180
+                 ||||||    |||          |||||||||||||||||||||||||||||||||||||
+Sbjct  64250304  CCACCA----CCCNNNNNNNNNNCCCCCACCCTGACTTCCCTGACCCCTGCCCCAGGTTC  64250359
+
+Query  181       GCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCAACATC  240
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250360  GCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCAACATC  64250419
+
+Query  241       TTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCCTGCTG  300
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250420  TTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCCTGCTG  64250479
+
+Query  301       CTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCAGGGCT  360
+                 | |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  64250480  C-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCGGGGCT  64250538
+
+Query  361       CTGCATTCTGGCCAACACGCTGGTGCCCCACGGTGAGGGGGCAAAGCTGTACACCAGAGA  420
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250539  CTGCATTCTGGCCAACACGCTGGTGCCCCACGGTGAGGGGGCAAAGCTGTACACCAGAGA  64250598
+
+Query  421       CTTCCCTACCTTgggggggTCTCGGGCTGGGAACAGCACCCCTCCTTGGAGGTGCTGGAC  480
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250599  CTTCCCTACCTTGGGGGGGTCTCGGGCTGGGAACAGCACCCCTCCTTGGAGGTGCTGGAC  64250658
+
+Query  481       TAGAGCAGGTACCCTGGTAGGAAGGAGGCTGCCGGAGCCGTCTAGGGACAGACGGCAGTG  540
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250659  TAGAGCAGGTACCCTGGTAGGAAGGAGGCTGCCGGAGCCGTCTAGGGACAGACGGCAGTG  64250718
+
+Query  541       TCTGCACTGAGCCAGCAAGAGCGGTGAAGGAGTGGCATGGGTGGCACCAGGGAAAAGTGT  600
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64250719  TCTGCACTGAGCCAGCAAGAGCGGTGAAGGAGTGGCATGGGTGGCACCAGGGAAAAGTGT  64250778
+
+Query  601       GG  602
+                 ||
+Sbjct  64250779  GG  64250780
+
+
+>ref|XM_006718431.2| PREDICTED: Homo sapiens solute carrier family 22 (organic anion/urate 
+transporter), member 12 (SLC22A12), transcript variant 
+X2, mRNA
+Length=2776
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1384  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1443
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1444  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1503
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1504  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1562
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1563  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  1599
+
+
+>ref|XM_006718430.2| PREDICTED: Homo sapiens solute carrier family 22 (organic anion/urate 
+transporter), member 12 (SLC22A12), transcript variant 
+X1, mRNA
+Length=2890
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1498  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1557
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1558  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1617
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1618  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1676
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1677  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  1713
+
+
+>ref|NM_001276327.1| Homo sapiens solute carrier family 22 (organic anion/urate transporter), 
+member 12 (SLC22A12), transcript variant 4, mRNA
+Length=2902
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1493  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1552
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1553  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1612
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1613  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1671
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1672  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  1708
+
+
+>ref|NM_001276326.1| Homo sapiens solute carrier family 22 (organic anion/urate transporter), 
+member 12 (SLC22A12), transcript variant 3, mRNA
+Length=3124
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1715  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1774
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1775  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1834
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1835  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1893
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1894  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  1930
+
+
+>ref|NM_153378.2| Homo sapiens solute carrier family 22 (organic anion/urate transporter), 
+member 12 (SLC22A12), transcript variant 2, mRNA
+Length=2960
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1551  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1610
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1611  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1670
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1671  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1729
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1730  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  1766
+
+
+>ref|NM_144585.3| Homo sapiens solute carrier family 22 (organic anion/urate transporter), 
+member 12 (SLC22A12), transcript variant 1, mRNA
+Length=3226
+
+ Score = 394 bits (213),  Expect = 7e-107
+ Identities = 216/217 (99%), Gaps = 1/217 (0%)
+ Strand=Plus/Plus
+
+Query  176   GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  235
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1817  GGTTCGCCTTTGGCTTCACCTTCTTCGGCCTGGCCCTGGACCTGCAGGCCCTGGGCAGCA  1876
+
+Query  236   ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  295
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1877  ACATCTTCCTGCTCCAAATGTTCATTGGTGTCGTGGACATCCCAGCCAAGATGGGCGCCC  1936
+
+Query  296   TGCTGCTTGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  355
+             |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1937  TGCTGC-TGCTGAGCCACCTGGGCCGCCGCCCCACGCTGGCCGCATCCCTGTTGCTGGCA  1995
+
+Query  356   GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  392
+             |||||||||||||||||||||||||||||||||||||
+Sbjct  1996  GGGCTCTGCATTCTGGCCAACACGCTGGTGCCCCACG  2032
+
+
+  Database: Homo sapiens all assemblies [GCF_000001405.28 GCF_000306695.2]
+chromosomes plus unplaced and unlocalized scaffolds in Annotation
+Release 107; Homo sapiens Annotation Release 107 RNAs
+    Posted date:  Mar 12, 2015  6:40 PM
+  Number of letters in database: 6,727,747,572
+  Number of sequences in database:  163,425
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 163425
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 1
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 1
+Number of HSP's successfully gapped: 1
+Length of query: 602
+Length of database: 6727747572
+Length adjustment: 31
+Effective length of query: 571
+Effective length of database: 6722681397
+Effective search space: 3838651077687
+Effective search space used: 3838651077687
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 21 (39.9 bits)
+
+
+
+
